@@ -1,0 +1,149 @@
+header {
+	background: #424242;
+	padding: 20px 0;
+}
+
+.fot {
+	width: 33%;
+	padding-top: 0px;
+}
+.cabeça {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+    top: 0px;
+    right: 1;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 30px ;
+}
+nav a {
+	text-transform: uppercase;
+	color : #b8860b;
+	font-weight: bold;
+	font-size: 23px;
+	text-decoration : none ;
+}
+nav a:hover {
+	color: #daa520;
+	text-decoration: underline;  
+}
+ul{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 80px;
+}
+body {
+	    font-family: 'Cinzel', serif;
+}
+main {
+	width: 940px;
+	margin: 0 auto; 
+}
+form {
+	margin: 40px 0;
+}
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+.ipp {
+	display: block;
+	margin: 0 0 10px;
+	padding: 10px 25px;
+	width: 30%;
+}
+.checkbox {
+	margin: 20px 0;
+}
+.enviar {
+	width: 30%;
+	padding: 15px 0;
+	background: #daa520;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 20px;
+	transition: 0.6s all;
+	cursor: pointer;
+}
+.enviar:hover {
+	background: #ae841a;
+	transform: scale(1.1);
+}
+#img_rdp {
+	width: 300;
+}
+footer {
+	margin-top: 70px;
+    text-align: center;
+    background: #424242;
+    padding: 20px 0;
+}
+#copyright {
+	color: #daa520;
+	font-size: 15px;
+	margin-top: 30px;
+}
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+td, th {
+	border: 1px solid black;
+	padding: 8px 15px;
+}
+
+@media screen and (max-width: 480px) {
+	.cabeça{
+		width: auto;
+	}
+	.fot {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 45%
+	}
+
+	.logo {
+		margin: 25px auto;
+	}
+	nav {
+		position: relative;
+	}
+	nav li {
+	    display: inline;
+		margin: 0 20px 0 20px;	
+	}
+	nav a {
+		font-size: 18px;
+	}
+	nav ul {
+		margin-top: 35px;
+		text-align: center;
+	}
+	main {
+		width: auto;
+	}
+	.ipp {
+		width: 70%;
+	}
+	.enviar {
+		width: 70%;
+	}
+	form, table  {
+		margin-left: 15px;
+	}
+	form label, form legend {
+	    display: block;
+	    font-size: 11px;
+	    margin: 0 0 10px;
+	}
+}

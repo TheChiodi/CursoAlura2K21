@@ -1,0 +1,123 @@
+header {
+	background: #424242;
+	padding: 20px 0;
+}
+.fot {
+	width: 33%;
+	padding-top: 0px;
+}
+.cabeça {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 0px;
+	right: 1;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 30px ;
+}
+nav a {
+	text-transform: uppercase;
+	color : #b8860b;
+	font-weight: bold;
+	font-size: 23px;
+	text-decoration : none ;
+}
+nav a:hover {
+	color: #daa520;
+	text-decoration: underline;  
+}
+header ul{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 80px;
+}
+body {
+	    font-family: 'Cinzel', serif;
+}
+.produtos {
+	width: 940px;
+	margin: 50 auto;
+	padding: 50px 0;
+}
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-color: black; 
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 10px;
+}
+.produtos li:hover {
+	border-color: #daa520;
+}
+.produtos li:hover h2 {
+	font-size: 40px;
+}
+
+.fotos {
+	width: 250;
+}
+#problema {
+	width: 229;
+}
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.descrição {
+	font-size: 18px;
+}
+.preço {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+#img_rdp {
+	width: 300;
+}
+footer {
+	text-align: center;
+	background: #424242;
+	padding: 20px 0;
+}
+#copyright {
+	color: #daa520;
+	font-size: 15px;
+	margin-top: 30px;
+}
+@media screen and (max-width: 480px) {
+	.cabeça {
+	width: auto;
+	}
+	h1 {
+		display: block;
+		width: 30%;
+		margin: 0 auto;
+	}
+	nav {
+	position: relative;
+	text-align: center;
+	}
+	nav a {
+		font-size: 20px;
+	}
+	header ul {
+    display: block;
+    vertical-align: top;
+    margin-top: 20;
+    text-align: center;
+	}
+
+
+	                                       /*BUGO ESSA MERDA/*
+}
